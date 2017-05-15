@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		807C7C8C1EC9587D00CA7C96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 807C7C8B1EC9587D00CA7C96 /* main.m */; };
+		807C7C8F1EC9587D00CA7C96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 807C7C8E1EC9587D00CA7C96 /* AppDelegate.m */; };
+		807C7C921EC9587D00CA7C96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 807C7C911EC9587D00CA7C96 /* ViewController.m */; };
+		807C7C951EC9587D00CA7C96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 807C7C931EC9587D00CA7C96 /* Main.storyboard */; };
+		807C7C981EC9587D00CA7C96 /* JohnnyFengMaker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 807C7C961EC9587D00CA7C96 /* JohnnyFengMaker.xcdatamodeld */; };
+		807C7C9A1EC9587D00CA7C96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 807C7C991EC9587D00CA7C96 /* Assets.xcassets */; };
+		807C7C9D1EC9587D00CA7C96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 807C7C9B1EC9587D00CA7C96 /* LaunchScreen.storyboard */; };
+		807C7CAA1EC95D2A00CA7C96 /* UIView+layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 807C7CA91EC95D2A00CA7C96 /* UIView+layout.m */; };
+		807C7CB51EC9963700CA7C96 /* JFStepSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 807C7CB41EC9963700CA7C96 /* JFStepSegmentView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		807C7C871EC9587D00CA7C96 /* JohnnyFengMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JohnnyFengMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		807C7C8B1EC9587D00CA7C96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		807C7C8D1EC9587D00CA7C96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		807C7C8E1EC9587D00CA7C96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		807C7C901EC9587D00CA7C96 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		807C7C911EC9587D00CA7C96 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		807C7C941EC9587D00CA7C96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		807C7C971EC9587D00CA7C96 /* JohnnyFengMaker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JohnnyFengMaker.xcdatamodel; sourceTree = "<group>"; };
+		807C7C991EC9587D00CA7C96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		807C7C9C1EC9587D00CA7C96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		807C7C9E1EC9587D00CA7C96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		807C7CA51EC95B2000CA7C96 /* JFengKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFengKit.h; sourceTree = "<group>"; };
+		807C7CA81EC95D2A00CA7C96 /* UIView+layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+layout.h"; sourceTree = "<group>"; };
+		807C7CA91EC95D2A00CA7C96 /* UIView+layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+layout.m"; sourceTree = "<group>"; };
+		807C7CAC1EC95F6A00CA7C96 /* JFMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFMacro.h; sourceTree = "<group>"; };
+		807C7CB31EC9963700CA7C96 /* JFStepSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFStepSegmentView.h; sourceTree = "<group>"; };
+		807C7CB41EC9963700CA7C96 /* JFStepSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFStepSegmentView.m; sourceTree = "<group>"; };
+		807C7CB71EC99A5100CA7C96 /* JFMakerPch.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFMakerPch.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		807C7C841EC9587D00CA7C96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		807C7C7E1EC9587D00CA7C96 = {
+			isa = PBXGroup;
+			children = (
+				807C7CB11EC9947200CA7C96 /* JFengViews */,
+				807C7CA41EC958E200CA7C96 /* JFengKit */,
+				807C7C891EC9587D00CA7C96 /* JohnnyFengMaker */,
+				807C7C881EC9587D00CA7C96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		807C7C881EC9587D00CA7C96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				807C7C871EC9587D00CA7C96 /* JohnnyFengMaker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		807C7C891EC9587D00CA7C96 /* JohnnyFengMaker */ = {
+			isa = PBXGroup;
+			children = (
+				807C7CB71EC99A5100CA7C96 /* JFMakerPch.pch */,
+				807C7CB91EC99B0D00CA7C96 /* 主页 */,
+				807C7CB81EC99AEF00CA7C96 /* CoreData */,
+				807C7C8A1EC9587D00CA7C96 /* Supporting Files */,
+			);
+			path = JohnnyFengMaker;
+			sourceTree = "<group>";
+		};
+		807C7C8A1EC9587D00CA7C96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				807C7C931EC9587D00CA7C96 /* Main.storyboard */,
+				807C7C991EC9587D00CA7C96 /* Assets.xcassets */,
+				807C7C9B1EC9587D00CA7C96 /* LaunchScreen.storyboard */,
+				807C7C9E1EC9587D00CA7C96 /* Info.plist */,
+				807C7C8B1EC9587D00CA7C96 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		807C7CA41EC958E200CA7C96 /* JFengKit */ = {
+			isa = PBXGroup;
+			children = (
+				807C7CA51EC95B2000CA7C96 /* JFengKit.h */,
+				807C7CAB1EC95F4700CA7C96 /* JFMacro */,
+				807C7CA61EC95C5300CA7C96 /* JFUikit */,
+			);
+			path = JFengKit;
+			sourceTree = "<group>";
+		};
+		807C7CA61EC95C5300CA7C96 /* JFUikit */ = {
+			isa = PBXGroup;
+			children = (
+				807C7CA81EC95D2A00CA7C96 /* UIView+layout.h */,
+				807C7CA91EC95D2A00CA7C96 /* UIView+layout.m */,
+			);
+			path = JFUikit;
+			sourceTree = "<group>";
+		};
+		807C7CAB1EC95F4700CA7C96 /* JFMacro */ = {
+			isa = PBXGroup;
+			children = (
+				807C7CAC1EC95F6A00CA7C96 /* JFMacro.h */,
+			);
+			path = JFMacro;
+			sourceTree = "<group>";
+		};
+		807C7CB11EC9947200CA7C96 /* JFengViews */ = {
+			isa = PBXGroup;
+			children = (
+				807C7CB21EC9962300CA7C96 /* JFStepSegmentView */,
+			);
+			path = JFengViews;
+			sourceTree = "<group>";
+		};
+		807C7CB21EC9962300CA7C96 /* JFStepSegmentView */ = {
+			isa = PBXGroup;
+			children = (
+				807C7CB31EC9963700CA7C96 /* JFStepSegmentView.h */,
+				807C7CB41EC9963700CA7C96 /* JFStepSegmentView.m */,
+			);
+			path = JFStepSegmentView;
+			sourceTree = "<group>";
+		};
+		807C7CB81EC99AEF00CA7C96 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				807C7C961EC9587D00CA7C96 /* JohnnyFengMaker.xcdatamodeld */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		807C7CB91EC99B0D00CA7C96 /* 主页 */ = {
+			isa = PBXGroup;
+			children = (
+				807C7C8D1EC9587D00CA7C96 /* AppDelegate.h */,
+				807C7C8E1EC9587D00CA7C96 /* AppDelegate.m */,
+				807C7C901EC9587D00CA7C96 /* ViewController.h */,
+				807C7C911EC9587D00CA7C96 /* ViewController.m */,
+			);
+			name = "主页";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		807C7C861EC9587D00CA7C96 /* JohnnyFengMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 807C7CA11EC9587D00CA7C96 /* Build configuration list for PBXNativeTarget "JohnnyFengMaker" */;
+			buildPhases = (
+				807C7C831EC9587D00CA7C96 /* Sources */,
+				807C7C841EC9587D00CA7C96 /* Frameworks */,
+				807C7C851EC9587D00CA7C96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JohnnyFengMaker;
+			productName = JohnnyFengMaker;
+			productReference = 807C7C871EC9587D00CA7C96 /* JohnnyFengMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		807C7C7F1EC9587D00CA7C96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = warmjar;
+				TargetAttributes = {
+					807C7C861EC9587D00CA7C96 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 48NPNTSQK4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 807C7C821EC9587D00CA7C96 /* Build configuration list for PBXProject "JohnnyFengMaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 807C7C7E1EC9587D00CA7C96;
+			productRefGroup = 807C7C881EC9587D00CA7C96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				807C7C861EC9587D00CA7C96 /* JohnnyFengMaker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		807C7C851EC9587D00CA7C96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				807C7C9D1EC9587D00CA7C96 /* LaunchScreen.storyboard in Resources */,
+				807C7C9A1EC9587D00CA7C96 /* Assets.xcassets in Resources */,
+				807C7C951EC9587D00CA7C96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		807C7C831EC9587D00CA7C96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				807C7C921EC9587D00CA7C96 /* ViewController.m in Sources */,
+				807C7C8F1EC9587D00CA7C96 /* AppDelegate.m in Sources */,
+				807C7CB51EC9963700CA7C96 /* JFStepSegmentView.m in Sources */,
+				807C7C981EC9587D00CA7C96 /* JohnnyFengMaker.xcdatamodeld in Sources */,
+				807C7CAA1EC95D2A00CA7C96 /* UIView+layout.m in Sources */,
+				807C7C8C1EC9587D00CA7C96 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		807C7C931EC9587D00CA7C96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				807C7C941EC9587D00CA7C96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		807C7C9B1EC9587D00CA7C96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				807C7C9C1EC9587D00CA7C96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		807C7C9F1EC9587D00CA7C96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		807C7CA01EC9587D00CA7C96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		807C7CA21EC9587D00CA7C96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 48NPNTSQK4;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JohnnyFengMaker/JFMakerPch.pch";
+				INFOPLIST_FILE = JohnnyFengMaker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.warmjar.JohnnyFengMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		807C7CA31EC9587D00CA7C96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 48NPNTSQK4;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JohnnyFengMaker/JFMakerPch.pch";
+				INFOPLIST_FILE = JohnnyFengMaker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.warmjar.JohnnyFengMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		807C7C821EC9587D00CA7C96 /* Build configuration list for PBXProject "JohnnyFengMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				807C7C9F1EC9587D00CA7C96 /* Debug */,
+				807C7CA01EC9587D00CA7C96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		807C7CA11EC9587D00CA7C96 /* Build configuration list for PBXNativeTarget "JohnnyFengMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				807C7CA21EC9587D00CA7C96 /* Debug */,
+				807C7CA31EC9587D00CA7C96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		807C7C961EC9587D00CA7C96 /* JohnnyFengMaker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				807C7C971EC9587D00CA7C96 /* JohnnyFengMaker.xcdatamodel */,
+			);
+			currentVersion = 807C7C971EC9587D00CA7C96 /* JohnnyFengMaker.xcdatamodel */;
+			path = JohnnyFengMaker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 807C7C7F1EC9587D00CA7C96 /* Project object */;
+}
