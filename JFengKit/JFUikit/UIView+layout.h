@@ -45,5 +45,9 @@
  */
 @property (nonatomic, assign) CGFloat cornerRadius;
 
+@property (nonatomic, assign) CGFloat left;
+@property (nonatomic, assign) CGFloat right;
+@property (nonatomic, assign) CGFloat top;
+@property (nonatomic, assign) CGFloat bottom;
 
 @end

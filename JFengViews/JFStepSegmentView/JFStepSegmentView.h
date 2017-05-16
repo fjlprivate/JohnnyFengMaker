@@ -15,7 +15,7 @@
 /**
  初始化;
 
- @param items 标题组<>;
+ @param items 标题组<NSString>;
  @return JFStepSegmentView*;
  */
 - (instancetype) initWithItems:(NSArray*)items;
@@ -42,5 +42,7 @@
  高亮颜色: 默认 0xfff143
  */
 @property (nonatomic, copy) UIColor* tintColor;
+
+
 
 @end

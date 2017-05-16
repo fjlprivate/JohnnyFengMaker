@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B204E92DD882E7316ADE5AD /* libPods-JohnnyFengMaker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEDCC330C8F68A3BA5314D51 /* libPods-JohnnyFengMaker.a */; };
 		807C7C8C1EC9587D00CA7C96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 807C7C8B1EC9587D00CA7C96 /* main.m */; };
 		807C7C8F1EC9587D00CA7C96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 807C7C8E1EC9587D00CA7C96 /* AppDelegate.m */; };
 		807C7C921EC9587D00CA7C96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 807C7C911EC9587D00CA7C96 /* ViewController.m */; };
@@ -16,9 +17,11 @@
 		807C7C9D1EC9587D00CA7C96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 807C7C9B1EC9587D00CA7C96 /* LaunchScreen.storyboard */; };
 		807C7CAA1EC95D2A00CA7C96 /* UIView+layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 807C7CA91EC95D2A00CA7C96 /* UIView+layout.m */; };
 		807C7CB51EC9963700CA7C96 /* JFStepSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 807C7CB41EC9963700CA7C96 /* JFStepSegmentView.m */; };
+		807C7CBD1ECAB43D00CA7C96 /* TestForStepSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 807C7CBC1ECAB43D00CA7C96 /* TestForStepSegmentView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		756EF26433CF35A8D3D1996B /* Pods-JohnnyFengMaker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JohnnyFengMaker.release.xcconfig"; path = "Pods/Target Support Files/Pods-JohnnyFengMaker/Pods-JohnnyFengMaker.release.xcconfig"; sourceTree = "<group>"; };
 		807C7C871EC9587D00CA7C96 /* JohnnyFengMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JohnnyFengMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		807C7C8B1EC9587D00CA7C96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		807C7C8D1EC9587D00CA7C96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,6 +40,10 @@
 		807C7CB31EC9963700CA7C96 /* JFStepSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFStepSegmentView.h; sourceTree = "<group>"; };
 		807C7CB41EC9963700CA7C96 /* JFStepSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFStepSegmentView.m; sourceTree = "<group>"; };
 		807C7CB71EC99A5100CA7C96 /* JFMakerPch.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFMakerPch.pch; sourceTree = "<group>"; };
+		807C7CBB1ECAB43D00CA7C96 /* TestForStepSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestForStepSegmentView.h; sourceTree = "<group>"; };
+		807C7CBC1ECAB43D00CA7C96 /* TestForStepSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestForStepSegmentView.m; sourceTree = "<group>"; };
+		BEDCC330C8F68A3BA5314D51 /* libPods-JohnnyFengMaker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JohnnyFengMaker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8664A0CDCCCC203AA6CCAE6 /* Pods-JohnnyFengMaker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JohnnyFengMaker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JohnnyFengMaker/Pods-JohnnyFengMaker.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B204E92DD882E7316ADE5AD /* libPods-JohnnyFengMaker.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +65,8 @@
 				807C7CA41EC958E200CA7C96 /* JFengKit */,
 				807C7C891EC9587D00CA7C96 /* JohnnyFengMaker */,
 				807C7C881EC9587D00CA7C96 /* Products */,
+				9F0C204E4F3D8B7EAC9EF6E6 /* Pods */,
+				B87188A68962B2594312ADEB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				807C7CB71EC99A5100CA7C96 /* JFMakerPch.pch */,
+				807C7CBA1ECAB41B00CA7C96 /* 测试步骤分部视图 */,
 				807C7CB91EC99B0D00CA7C96 /* 主页 */,
 				807C7CB81EC99AEF00CA7C96 /* CoreData */,
 				807C7C8A1EC9587D00CA7C96 /* Supporting Files */,
@@ -154,6 +165,32 @@
 			name = "主页";
 			sourceTree = "<group>";
 		};
+		807C7CBA1ECAB41B00CA7C96 /* 测试步骤分部视图 */ = {
+			isa = PBXGroup;
+			children = (
+				807C7CBB1ECAB43D00CA7C96 /* TestForStepSegmentView.h */,
+				807C7CBC1ECAB43D00CA7C96 /* TestForStepSegmentView.m */,
+			);
+			path = "测试步骤分部视图";
+			sourceTree = "<group>";
+		};
+		9F0C204E4F3D8B7EAC9EF6E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8664A0CDCCCC203AA6CCAE6 /* Pods-JohnnyFengMaker.debug.xcconfig */,
+				756EF26433CF35A8D3D1996B /* Pods-JohnnyFengMaker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B87188A68962B2594312ADEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEDCC330C8F68A3BA5314D51 /* libPods-JohnnyFengMaker.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -161,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 807C7CA11EC9587D00CA7C96 /* Build configuration list for PBXNativeTarget "JohnnyFengMaker" */;
 			buildPhases = (
+				7C3F4601F9E0F61CAF28EE01 /* [CP] Check Pods Manifest.lock */,
 				807C7C831EC9587D00CA7C96 /* Sources */,
 				807C7C841EC9587D00CA7C96 /* Frameworks */,
 				807C7C851EC9587D00CA7C96 /* Resources */,
+				C6C14280CAB5456D32B6519B /* [CP] Embed Pods Frameworks */,
+				4B1990F34102BFD2DB074F3D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -221,11 +261,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4B1990F34102BFD2DB074F3D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JohnnyFengMaker/Pods-JohnnyFengMaker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C3F4601F9E0F61CAF28EE01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C6C14280CAB5456D32B6519B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JohnnyFengMaker/Pods-JohnnyFengMaker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		807C7C831EC9587D00CA7C96 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				807C7CBD1ECAB43D00CA7C96 /* TestForStepSegmentView.m in Sources */,
 				807C7C921EC9587D00CA7C96 /* ViewController.m in Sources */,
 				807C7C8F1EC9587D00CA7C96 /* AppDelegate.m in Sources */,
 				807C7CB51EC9963700CA7C96 /* JFStepSegmentView.m in Sources */,
@@ -351,6 +440,7 @@
 		};
 		807C7CA21EC9587D00CA7C96 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8664A0CDCCCC203AA6CCAE6 /* Pods-JohnnyFengMaker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 48NPNTSQK4;
@@ -366,6 +456,7 @@
 		};
 		807C7CA31EC9587D00CA7C96 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 756EF26433CF35A8D3D1996B /* Pods-JohnnyFengMaker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 48NPNTSQK4;
@@ -398,6 +489,7 @@
 				807C7CA31EC9587D00CA7C96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

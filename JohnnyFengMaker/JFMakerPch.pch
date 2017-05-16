@@ -10,12 +10,23 @@
 #define JFMakerPch_pch
 
 #import "JFengKit.h"
-// Include any system framework and library headers here that should be included in all compilation units.
-// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
+
+// 第三方库
+#import <AFNetworking.h>
+#import <NSString+FontAwesome.h>
+#import <UIFont+FontAwesome.h>
+#import <Masonry.h>
+#import <MJRefresh.h>
+#import <ReactiveCocoa.h>
+
+# pragma mask --- 宏定义 ---
 
 // 主题色: 鹅黄色
 #define JFYellowColor       JFHexColor(0xfff143,1)
+
+
+
 
 
 #endif /* JFMakerPch_pch */
